@@ -1,3 +1,11 @@
+"""
+Singleton pattern ensures that a class has only one instance and provides a global point of access to it.
+
+Key Points:
+- Purpose: Ensure a single instance of the class.
+- Use case: Logger class, database connections, configuration classes, etc.
+"""
+
 class Singleton:
     _instance = None
 
